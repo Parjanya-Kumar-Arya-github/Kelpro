@@ -1,0 +1,1510 @@
+{
+  "tabs": [
+    {
+      "id": "pumps",
+      "label": "Fuel Pumps"
+    },
+    {
+      "id": "water",
+      "label": "Water Pumps"
+    },
+    {
+      "id": "engmount",
+      "label": "Engine Mountings"
+    },
+    {
+      "id": "strut",
+      "label": "Strut Mounts"
+    },
+    {
+      "id": "calliper",
+      "label": "Calliper Kits"
+    },
+    {
+      "id": "tailgate",
+      "label": "Tailgate Struts"
+    },
+    {
+      "id": "wipers",
+      "label": "Wiper Blades"
+    },
+    {
+      "id": "oilcooler",
+      "label": "Oil Coolers"
+    }
+  ],
+  "catalogueData": [
+    {
+      "id": "pumps",
+      "headers": [
+        "Ref No.",
+        "Suitable For",
+        "MRP (₹)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "KFM 01",
+            "NANO",
+            "₹990"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 02",
+            "KWID",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 03",
+            "SUPER CARRY",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 04",
+            "ZEN",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 05",
+            "MPFI",
+            "₹715"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 06",
+            "SANTRO, I20 1st Gen",
+            "₹715"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 07",
+            "K SERIES",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 08",
+            "SWIFT PETROL",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 09",
+            "ETIOS",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 10",
+            "MAXIMO",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 11",
+            "ACE SUPER",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 12",
+            "XCENT / EON",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 13",
+            "AMAZE PETROL",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 14",
+            "BALENO N/M",
+            "₹1,155"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 15",
+            "TRIBER / KIGER",
+            "₹1,265"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 16",
+            "POLO DIESEL",
+            "₹1,430"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 17",
+            "ERTIGA DIESEL",
+            "₹1,650"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 18",
+            "BEAT DIESEL",
+            "₹1,595"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 19",
+            "CIAZ",
+            "₹1,870"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 20",
+            "ECCO BS6",
+            "₹1,078"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 21",
+            "ERTIGA PETROL",
+            "₹1,285"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 22",
+            "BOLERO",
+            "₹990"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 23",
+            "BEAT PETROL",
+            "₹1,045"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 24",
+            "BOLERO NM",
+            "₹1,650"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 25",
+            "BOLERO PICKUP",
+            "₹1,650"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 26",
+            "ERTIGA / SWIFT DSL NM",
+            "₹1,650"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 27",
+            "SWIFT NM",
+            "₹1,650"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 28",
+            "HONDA CITY",
+            "₹1,265"
+          ]
+        },
+        {
+          "cells": [
+            "KFM 29",
+            "CRETA",
+            "₹1,265"
+          ]
+        },
+        {
+          "cells": [
+            "30",
+            "I20 ELITE",
+            "₹1,265"
+          ]
+        }
+      ],
+      "footer": null
+    },
+    {
+      "id": "water",
+      "headers": [
+        "Product No.",
+        "Suitable For",
+        "Brand",
+        "MRP (₹)"
+      ],
+      "rows": [
+        {
+          "type": "brand-row",
+          "label": "MARUTI-SUZUKI"
+        },
+        {
+          "cells": [
+            "KWP/MS/001",
+            "Car Petrol",
+            "Maruti",
+            "₹770"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/002",
+            "Alto Petrol",
+            "Maruti",
+            "₹780"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/003",
+            "Zen Petrol",
+            "Maruti",
+            "₹925"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/004",
+            "Zen MPFI",
+            "Maruti",
+            "₹925"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/005",
+            "Gypsy King Petrol",
+            "Maruti",
+            "₹925"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/006",
+            "Eeco Petrol",
+            "Maruti",
+            "₹999"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/007",
+            "Alto 800 Petrol",
+            "Maruti",
+            "₹925"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/008",
+            "Swift Diesel",
+            "Maruti",
+            "₹1,375"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/009",
+            "Ertiga / Ciaz K-Series",
+            "Maruti",
+            "₹980"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/010",
+            "Ciaz Diesel",
+            "Maruti",
+            "₹1,850"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/011",
+            "S-Cross",
+            "Maruti",
+            "₹1,850"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/012",
+            "XL BS6",
+            "Maruti",
+            "₹1,590"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MS/013",
+            "Super Carry Diesel",
+            "Maruti",
+            "₹2,200"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "TATA MOTORS"
+        },
+        {
+          "cells": [
+            "KWP/TM/001",
+            "Iris / Zip BS4 Pulley",
+            "Tata",
+            "₹1,135"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TM/002",
+            "Iris",
+            "Tata",
+            "₹795"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TM/003",
+            "Sumo 2.2",
+            "Tata",
+            "₹1,450"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TM/004",
+            "Sumo",
+            "Tata",
+            "₹1,050"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TM/007",
+            "Indica Vista",
+            "Tata",
+            "₹1,450"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TM/009",
+            "Bolt / Zest",
+            "Tata",
+            "₹1,650"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TM/010",
+            "Tiago / Tigor",
+            "Tata",
+            "₹1,650"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "MAHINDRA"
+        },
+        {
+          "cells": [
+            "KWP/MM/001",
+            "Bolero Universal",
+            "Mahindra",
+            "₹2,500"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MM/002",
+            "Bolero M2di",
+            "Mahindra",
+            "₹2,120"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/MM/007",
+            "M-Hawk",
+            "Mahindra",
+            "₹2,100"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "TOYOTA"
+        },
+        {
+          "cells": [
+            "KWP/TY/001",
+            "Etios Liva Diesel",
+            "Toyota",
+            "₹1,980"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TY/002",
+            "Etios Liva Petrol",
+            "Toyota",
+            "₹1,720"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TY/004",
+            "Innova Crysta",
+            "Toyota",
+            "₹2,900"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/TY/005",
+            "Innova Diesel",
+            "Toyota",
+            "₹2,500"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "HYUNDAI"
+        },
+        {
+          "cells": [
+            "KWP/HY/001",
+            "Santro",
+            "Hyundai",
+            "₹925"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/HY/004",
+            "i10, i20",
+            "Hyundai",
+            "₹900"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/HY/008",
+            "Venue Petrol",
+            "Hyundai",
+            "₹1,750"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/HY/009",
+            "Creta Petrol",
+            "Hyundai",
+            "₹1,990"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "SKODA / VOLKSWAGEN"
+        },
+        {
+          "cells": [
+            "KWP/VW/001",
+            "Polo Petrol 1.2",
+            "VW",
+            "₹1,850"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/VW/003",
+            "Polo / Vento Diesel",
+            "VW",
+            "₹1,400"
+          ]
+        },
+        {
+          "cells": [
+            "KWP/VW/006",
+            "Octavia 1.8 Petrol",
+            "Skoda",
+            "₹2,900"
+          ]
+        }
+      ],
+      "footer": null
+    },
+    {
+      "id": "engmount",
+      "headers": [
+        "Ref No.",
+        "Description",
+        "OEM Number",
+        "Brand"
+      ],
+      "rows": [
+        {
+          "type": "brand-row",
+          "label": "MARUTI SUZUKI"
+        },
+        {
+          "cells": [
+            "MA 8",
+            "Front Engine Gypsy",
+            "11610M80020",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 9",
+            "Rear Engine Gypsy",
+            "11710M80010",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 45",
+            "Front Mounting Right – Alto 800 / Wagon R",
+            "11610M79F00",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 46",
+            "Front Mounting Left – Alto 800 / Wagon R",
+            "11610M79G10",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 47",
+            "Rear Mounting – Wagon R / Alto / Baleno / Alto 800",
+            "11620M79F20",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 58",
+            "Front Engine Left – Swift / Dzire O/M",
+            "11620 M 75J00",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 59",
+            "Front Engine Right – Swift / Dzire O/M",
+            "11610 M 86J00",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 72",
+            "Front Mounting Right – Alto K10, Zen Estilo",
+            "11610 M 65L00",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 78",
+            "Front Mounting Left – Wagon R N/M",
+            "11620 M 67L00",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 191",
+            "Rear Right – Celerio T2, Wagon R 2018",
+            "11910 M 69R00",
+            "Maruti"
+          ]
+        },
+        {
+          "cells": [
+            "MA 192",
+            "Rear Rod – Ertiga, XL6",
+            "11910 M 72R00",
+            "Maruti"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "TOYOTA"
+        },
+        {
+          "cells": [
+            "TY 01",
+            "Front Engine – Innova, Fortuner",
+            "12361 0L030",
+            "Toyota"
+          ]
+        },
+        {
+          "cells": [
+            "TY 02",
+            "Transmission – Innova",
+            "12371 0C081",
+            "Toyota"
+          ]
+        },
+        {
+          "cells": [
+            "TY 62",
+            "Gearbox – Innova, Fortuner",
+            "12371-0C072",
+            "Toyota"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "HYUNDAI"
+        },
+        {
+          "cells": [
+            "HY 01",
+            "Front Engine – Santro",
+            "21840-02000",
+            "Hyundai"
+          ]
+        },
+        {
+          "cells": [
+            "HY 02",
+            "Front Engine – Santro Xing",
+            "21840-05200",
+            "Hyundai"
+          ]
+        },
+        {
+          "cells": [
+            "HY 44",
+            "Gearbox – Santro Xing",
+            "21830-05200",
+            "Hyundai"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "TATA"
+        },
+        {
+          "cells": [
+            "TT 48",
+            "Mounting – Indica Vista / Indigo Manza TDI",
+            "27902 4100169",
+            "Tata"
+          ]
+        },
+        {
+          "cells": [
+            "TT 70",
+            "Engine Mounting C – Tiago / Tigor",
+            "540124100159",
+            "Tata"
+          ]
+        },
+        {
+          "cells": [
+            "TT 79",
+            "Engine Mounting C – Nexon",
+            "543824100114",
+            "Tata"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "MAHINDRA"
+        },
+        {
+          "cells": [
+            "MS 01",
+            "Front Engine – Scorpio",
+            "0203AD20020N",
+            "Mahindra"
+          ]
+        },
+        {
+          "cells": [
+            "MS 02",
+            "Gearbox – Scorpio",
+            "0203AD0060N",
+            "Mahindra"
+          ]
+        },
+        {
+          "cells": [
+            "MS 31",
+            "Gearbox – Scorpio CRDi",
+            "0703AD3370N",
+            "Mahindra"
+          ]
+        },
+        {
+          "cells": [
+            "MS 60",
+            "Gearbox – Scorpio, Thar",
+            "0703AD3530N",
+            "Mahindra"
+          ]
+        },
+        {
+          "cells": [
+            "MH 48",
+            "Gearbox – Bolero NM",
+            "0401BA2700N",
+            "Mahindra"
+          ]
+        }
+      ],
+      "footer": null
+    },
+    {
+      "id": "strut",
+      "headers": [
+        "Ref No.",
+        "Description",
+        "OEM Number"
+      ],
+      "rows": [
+        {
+          "type": "brand-row",
+          "label": "MARUTI SUZUKI"
+        },
+        {
+          "cells": [
+            "MA 132",
+            "Front Strut Mount – Celerio",
+            "41710M7600"
+          ]
+        },
+        {
+          "cells": [
+            "MA 144",
+            "Front Strut Mount – Swift/Dzire 3rd Gen, Baleno/Fronx",
+            "41710M55R00"
+          ]
+        },
+        {
+          "cells": [
+            "MA 68",
+            "Front Strut Mount – Ciaz/Ertiga 1st Gen, Swift/Dzire 2nd Gen",
+            "41710M74L00"
+          ]
+        },
+        {
+          "cells": [
+            "MA 67",
+            "Front Strut Mount – Swift/Dzire 1st Gen",
+            "41710M75J30"
+          ]
+        },
+        {
+          "cells": [
+            "MA 143",
+            "Front Strut Mount – Ertiga 2nd Gen, XL6",
+            "41710M72M00"
+          ]
+        },
+        {
+          "cells": [
+            "MA 190",
+            "Front Strut Mount – Brezza, S-Cross, GV",
+            "41710M82P00"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "HYUNDAI"
+        },
+        {
+          "cells": [
+            "HY 82",
+            "Front Strut Mount – Creta 2015/18/20",
+            "54610A0000"
+          ]
+        },
+        {
+          "cells": [
+            "HY 51",
+            "Front Strut Mount – i20 \"D\" Cut, Grand, Xcent",
+            "54611-1J000"
+          ]
+        },
+        {
+          "cells": [
+            "HY 49",
+            "Front Strut Mount – I10 First Gen / Eon",
+            "54611-07000"
+          ]
+        },
+        {
+          "cells": [
+            "HY 54",
+            "Front Strut Mount – Verna Fluidic",
+            "54611-0U000"
+          ]
+        },
+        {
+          "cells": [
+            "HY 57",
+            "Front Strut Mount – Venue, Verna Latest",
+            "54611-H6000"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "TOYOTA"
+        },
+        {
+          "cells": [
+            "TY 54",
+            "Front Strut Mount – Fortuner First Gen",
+            "48609-0K040"
+          ]
+        },
+        {
+          "cells": [
+            "TY 56",
+            "Front Strut Mount – Fortuner Second Gen",
+            "48609-0K120"
+          ]
+        },
+        {
+          "cells": [
+            "TY 22",
+            "Front Strut Mount – Innova, Crysta",
+            "48609-0K09"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "MAHINDRA"
+        },
+        {
+          "cells": [
+            "MS 42",
+            "Front Strut Mount – Scorpio-S, TUV300, Bolero Neo",
+            "0403AAA01571N"
+          ]
+        },
+        {
+          "cells": [
+            "MX 55",
+            "Front Strut Mount – XUV 300",
+            "0401EBC00481N"
+          ]
+        },
+        {
+          "cells": [
+            "MX 44",
+            "Front Strut Mount – XUV 500 2nd Gen",
+            "0401BBC00211N"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "SKODA / VW / OTHERS"
+        },
+        {
+          "cells": [
+            "VW 1",
+            "Front Strut – Fabia, Kushaq, Rapid, Polo, Taigun, Vento, Virtus, Slavia",
+            "1J0412331C"
+          ]
+        },
+        {
+          "cells": [
+            "HC 5",
+            "Front Strut – Amaze, BRV, Brio, City, Jazz, Mobilio, WRV",
+            "51920 TG2 T01"
+          ]
+        },
+        {
+          "cells": [
+            "FD 04",
+            "Front Strut – Ford EcoSport",
+            "AY113K155AC"
+          ]
+        }
+      ],
+      "footer": null
+    },
+    {
+      "id": "calliper",
+      "headers": [
+        "Part No.",
+        "Suitable For",
+        "Rate/Kit (₹)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "112",
+            "Ciaz, Swift, Baleno",
+            "₹375"
+          ]
+        },
+        {
+          "cells": [
+            "120",
+            "Astar, Alto, Celerio, Eeco, Jimny, Wagon R, Zen",
+            "₹375"
+          ]
+        },
+        {
+          "cells": [
+            "131",
+            "Alcazar, Creta, Elantra, i20, Venue, Verna, Altroz, Punch, Nexon, Tiago, Brio, Jazz, WRV, Seltos, Sonet",
+            "₹405"
+          ]
+        },
+        {
+          "cells": [
+            "141",
+            "Micra, Sunny, Corolla, Compass (rear), Gloster",
+            "₹405"
+          ]
+        },
+        {
+          "cells": [
+            "142",
+            "Amaze (2013–2016)",
+            "₹405"
+          ]
+        },
+        {
+          "cells": [
+            "151",
+            "Bolero, Pickup, KUV100, Scorpio, TUV 300, Verito, Xylo",
+            "₹380"
+          ]
+        },
+        {
+          "cells": [
+            "152",
+            "Ignis, Scorpio S2, Thar, Harrier, Amaze (2016–2023), Civic",
+            "₹445"
+          ]
+        },
+        {
+          "cells": [
+            "181",
+            "Etios, Corolla Altis, Liva",
+            "₹445"
+          ]
+        },
+        {
+          "cells": [
+            "191",
+            "Compass (2017–2020)",
+            "₹500"
+          ]
+        },
+        {
+          "cells": [
+            "222",
+            "Ertiga, XL6, Grand Vitara, Swift (2021–22), City",
+            "₹405"
+          ]
+        },
+        {
+          "cells": [
+            "333",
+            "Car, Esteem, Brezza, Van, S-Presso, Santro, ACE, Indica, Figo, Kwid, Dost",
+            "₹375"
+          ]
+        },
+        {
+          "cells": [
+            "444",
+            "Aura, Creta (rear), Eon, i20 (rear), Grand i10, Santro New, Venue (rear)",
+            "₹430"
+          ]
+        },
+        {
+          "cells": [
+            "555",
+            "Accent, Getz, i10, i20 Petrol",
+            "₹375"
+          ]
+        },
+        {
+          "cells": [
+            "666",
+            "Innova (2005–2018)",
+            "₹445"
+          ]
+        },
+        {
+          "cells": [
+            "776",
+            "Fabia, Octavia, Rapid, Superb, Polo, Vento",
+            "₹405"
+          ]
+        },
+        {
+          "cells": [
+            "777",
+            "EcoSport, Fabia, Laura, Octavia, Polo, Vento, Virtus, Range Rover Evoque, Audi A3",
+            "₹500"
+          ]
+        },
+        {
+          "cells": [
+            "888",
+            "Duster (2012–2022)",
+            "₹500"
+          ]
+        },
+        {
+          "cells": [
+            "1041",
+            "Innova Crysta",
+            "₹600"
+          ]
+        }
+      ],
+      "footer": null
+    },
+    {
+      "id": "tailgate",
+      "headers": [
+        "Model",
+        "Brand",
+        "Price/Piece (₹)"
+      ],
+      "rows": [
+        {
+          "type": "brand-row",
+          "label": "MARUTI SUZUKI"
+        },
+        {
+          "cells": [
+            "Maruti Car",
+            "Maruti",
+            "₹125"
+          ]
+        },
+        {
+          "cells": [
+            "Maruti Alto",
+            "Maruti",
+            "₹150"
+          ]
+        },
+        {
+          "cells": [
+            "Maruti Wagon-R",
+            "Maruti",
+            "₹163"
+          ]
+        },
+        {
+          "cells": [
+            "Maruti Wagon-R N/M",
+            "Maruti",
+            "₹194"
+          ]
+        },
+        {
+          "cells": [
+            "Maruti Swift",
+            "Maruti",
+            "₹181"
+          ]
+        },
+        {
+          "cells": [
+            "Ertiga",
+            "Maruti",
+            "₹219"
+          ]
+        },
+        {
+          "cells": [
+            "Baleno / S-Cross / Brezza / Ignis / S-Presso",
+            "Maruti",
+            "₹219"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "HYUNDAI"
+        },
+        {
+          "cells": [
+            "Santro Zip / Xing",
+            "Hyundai",
+            "₹144"
+          ]
+        },
+        {
+          "cells": [
+            "i-10 / i-20",
+            "Hyundai",
+            "₹188"
+          ]
+        },
+        {
+          "cells": [
+            "Eon / Grand i10 / Creta",
+            "Hyundai",
+            "₹219"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "TATA"
+        },
+        {
+          "cells": [
+            "Tata Indica",
+            "Tata",
+            "₹113"
+          ]
+        },
+        {
+          "cells": [
+            "Tata Indica V2",
+            "Tata",
+            "₹125"
+          ]
+        },
+        {
+          "cells": [
+            "Tata Vista",
+            "Tata",
+            "₹181"
+          ]
+        },
+        {
+          "cells": [
+            "Tiago / Bolt / Nano / Nexon",
+            "Tata",
+            "₹219"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "TOYOTA"
+        },
+        {
+          "cells": [
+            "Toyota Qualis",
+            "Toyota",
+            "₹238"
+          ]
+        },
+        {
+          "cells": [
+            "Innova",
+            "Toyota",
+            "₹313"
+          ]
+        },
+        {
+          "cells": [
+            "Etios",
+            "Toyota",
+            "₹219"
+          ]
+        },
+        {
+          "type": "brand-row",
+          "label": "MAHINDRA / SKODA / OTHERS"
+        },
+        {
+          "cells": [
+            "XUV-500 / KUV-100 / Scorpio Bonnet",
+            "Mahindra",
+            "₹219"
+          ]
+        },
+        {
+          "cells": [
+            "Laura / Octavia / Superb / Fabia",
+            "Skoda",
+            "₹219"
+          ]
+        },
+        {
+          "cells": [
+            "Duster / Kwid / Lodgy",
+            "Renault",
+            "₹219"
+          ]
+        }
+      ],
+      "footer": null
+    },
+    {
+      "id": "wipers",
+      "headers": [
+        "Size",
+        "MRP / Piece (₹)",
+        "Master Pack"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "12\"",
+            "₹120",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "13\"",
+            "₹120",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "14\"",
+            "₹120",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "15\"",
+            "₹120",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "16\"",
+            "₹130",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "17\"",
+            "₹130",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "18\"",
+            "₹140",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "19\"",
+            "₹150",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "20\"",
+            "₹150",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "21\"",
+            "₹160",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "22\"",
+            "₹170",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "24\"",
+            "₹180",
+            "50 pcs"
+          ]
+        },
+        {
+          "cells": [
+            "26\"",
+            "₹190",
+            "50 pcs"
+          ]
+        }
+      ],
+      "footer": "100% Natural GOMA Rubber with Silicon · 1.2mm blade · Stainless steel body · J-shaped hook universal fit"
+    },
+    {
+      "id": "oilcooler",
+      "headers": [
+        "OEM Number",
+        "Suitable For",
+        "MRP (₹)"
+      ],
+      "rows": [
+        {
+          "cells": [
+            "03L115389H",
+            "Laura, Rapid, Yeti, Superb, Vento DIESEL",
+            "₹1,550"
+          ]
+        },
+        {
+          "cells": [
+            "03P115389A",
+            "Polo, Fabia DIESEL",
+            "₹1,550"
+          ]
+        },
+        {
+          "cells": [
+            "5655305",
+            "Ciaz, Ertiga DIESEL 2019–20",
+            "₹425"
+          ]
+        },
+        {
+          "cells": [
+            "55193743",
+            "Swift 2007–10 / Ritz 2009–11",
+            "₹425"
+          ]
+        },
+        {
+          "cells": [
+            "55210712",
+            "Ciaz 2014–19, Ertiga 2012–19, S-Cross, Grand Vitara, SX4",
+            "₹425"
+          ]
+        },
+        {
+          "cells": [
+            "1103.L1",
+            "Figo, Fusion, Ikon, Fiesta OLD MODEL",
+            "₹600"
+          ]
+        },
+        {
+          "cells": [
+            "0702AAK00011N",
+            "XUV 2015–2021",
+            "₹1,600"
+          ]
+        },
+        {
+          "cells": [
+            "8200068115",
+            "Logan, Verito",
+            "₹800"
+          ]
+        },
+        {
+          "cells": [
+            "8200779744",
+            "Duster 85",
+            "₹750"
+          ]
+        },
+        {
+          "cells": [
+            "8200923115",
+            "Duster 110",
+            "₹750"
+          ]
+        },
+        {
+          "cells": [
+            "213059324R",
+            "Micra",
+            "₹750"
+          ]
+        },
+        {
+          "cells": [
+            "26410-04501",
+            "Grand I10, Venue, Sonet (turbo petrol)",
+            "₹1,100"
+          ]
+        },
+        {
+          "cells": [
+            "26410-08000",
+            "Alcazar, Creta Turbo, Verna 1.5 turbo petrol",
+            "₹1,100"
+          ]
+        },
+        {
+          "cells": [
+            "26410-2A300",
+            "Creta, Elantra, Fludic, Getz, i20, Venue, Verna (diesel)",
+            "₹450"
+          ]
+        },
+        {
+          "cells": [
+            "0303DAM00081N",
+            "XUV 500 2nd Gen / Scorpio NM",
+            "₹1,100"
+          ]
+        },
+        {
+          "cells": [
+            "06J117021D",
+            "Laura, Octavia, Superb, Yeti, A3, A4 (Petrol) OLD 2008–14",
+            "₹1,150"
+          ]
+        },
+        {
+          "cells": [
+            "06L117021C",
+            "Laura, Octavia, Superb, A3, A4 (Petrol) NEW 2015+",
+            "₹1,150"
+          ]
+        }
+      ],
+      "footer": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-display-large {
+    @apply text-5xl md:text-[5rem] leading-[1.1] tracking-[-0.02em] font-heading;
+  }
+  .text-display-default {
+    @apply text-4xl md:text-[3.5rem] leading-[1.1] tracking-[-0.02em] font-heading;
+  }
+  .text-display-small {
+    @apply text-3xl md:text-[2.5rem] leading-[1.15] tracking-[-0.01em] font-heading;
+  }
+  .text-body-large {
+    @apply text-lg leading-relaxed;
+  }
+  .text-body-default {
+    @apply text-base leading-relaxed;
+  }
+  .text-body-small {
+    @apply text-sm leading-relaxed;
+  }
+}
