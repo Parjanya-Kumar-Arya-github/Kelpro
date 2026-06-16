@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronDown } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import catalogueDataRaw from '../data/catalogueData.json';
 
@@ -12,6 +13,7 @@ const catalogue = catalogueDataRaw as { tabs: Tab[]; catalogueData: CategoryData
 const FeaturesInteractive = () => {
   const location = useLocation();
   const [activeTab, setActiveTab] = useState<string>(catalogue.tabs[0].id);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(location.search);
@@ -24,7 +26,8 @@ const FeaturesInteractive = () => {
   const currentData = catalogue.catalogueData.find(c => c.id === activeTab);
 
   return (
-    <section className="w-full py-24 md:py-32 bg-background border-t border-border" id="catalogue">
+    <section className="relative w-full py-24 md:py-32 bg-background" id="catalogue">
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50" />
       <div className="max-w-[1512px] mx-auto px-6 md:px-10">
 
         {/* Top Header */}
@@ -57,7 +60,7 @@ const FeaturesInteractive = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
-              className="inline-flex shrink-0 mt-5 cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-full text-body-default font-medium bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-6 transition-colors"
+              className="inline-flex shrink-0 mt-5 cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-full text-lg font-medium bg-[#F7E7CE] text-black hover:bg-[#F7E7CE]/90 h-14 px-8 transition-colors"
             >
               Download Catalogue
             </motion.a>
@@ -65,7 +68,7 @@ const FeaturesInteractive = () => {
         </div>
 
         {/* Tabs */}
-        <div className="flex flex-nowrap w-full overflow-hidden gap-1 md:gap-2 pb-4 mb-8 justify-between items-center border-b border-border/50">
+        <div className="hidden md:flex flex-nowrap w-full overflow-hidden gap-1 md:gap-2 pb-4 mb-8 justify-between items-center border-b border-border/50">
           {catalogue.tabs.map(tab => (
             <button
               key={tab.id}
@@ -78,6 +81,41 @@ const FeaturesInteractive = () => {
               {tab.label}
             </button>
           ))}
+        </div>
+        
+        {/* Mobile Dropdown */}
+        <div className="md:hidden w-full mb-8 relative">
+          <button 
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+            className="w-full p-4 rounded-2xl bg-secondary/50 text-foreground border border-border/50 focus:border-[#F7E7CE] outline-none font-medium text-sm flex justify-between items-center shadow-md transition-colors"
+          >
+            <span>{catalogue.tabs.find(t => t.id === activeTab)?.label}</span>
+            <ChevronDown className={`w-5 h-5 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
+          </button>
+          
+          <AnimatePresence>
+            {isDropdownOpen && (
+              <motion.div
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                className="absolute top-full left-0 right-0 mt-2 bg-card border border-border/50 rounded-2xl shadow-xl z-50 overflow-hidden flex flex-col"
+              >
+                {catalogue.tabs.map(tab => (
+                  <button
+                    key={tab.id}
+                    onClick={() => {
+                      setActiveTab(tab.id);
+                      setIsDropdownOpen(false);
+                    }}
+                    className={`w-full text-left px-4 py-3 text-sm transition-colors ${activeTab === tab.id ? 'bg-[#F7E7CE]/10 text-[#F7E7CE]' : 'hover:bg-secondary/50 text-muted-foreground'}`}
+                  >
+                    {tab.label}
+                  </button>
+                ))}
+              </motion.div>
+            )}
+          </AnimatePresence>
         </div>
 
         {/* Table Panel */}

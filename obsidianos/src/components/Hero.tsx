@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section className="relative flex flex-col pt-32 md:pt-40 overflow-clip pb-0 min-h-[400px] sm:min-h-[600px] items-center text-center bg-[linear-gradient(180deg,rgba(0,0,0,0)_0%,#000_83.35%)]">
+    <section className="relative flex flex-col pt-32 md:pt-40 overflow-clip pb-0 min-h-[400px] sm:min-h-[600px] items-center text-center bg-[linear-gradient(180deg,rgba(0,0,0,0)_0%,#050A15_83.35%)]">
       {/* Spline 3D Background */}
 
 
       {/* Background White Glow */}
-      <div className="absolute top-[20%] md:top-[30%] left-1/2 -translate-x-1/2 w-[80vw] md:w-[50vw] max-w-[800px] h-[300px] md:h-[500px] bg-[linear-gradient(180deg,rgba(0,0,0,0)_0%,#000_83.35%)] blur-[100px] md:blur-[140px] rounded-[100%] pointer-events-none z-[-1]" />
+      <div className="absolute top-[20%] md:top-[30%] left-1/2 -translate-x-1/2 w-[80vw] md:w-[50vw] max-w-[800px] h-[300px] md:h-[500px] bg-[linear-gradient(180deg,rgba(0,0,0,0)_0%,#050A15_83.35%)] blur-[100px] md:blur-[140px] rounded-[100%] pointer-events-none z-[-1]" />
 
       {/* Decorative Rocks */}
       <motion.img
@@ -35,9 +35,9 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-[60rem] text-display-small md:text-display-large text-foreground mb-6"
+          className="max-w-[95%] md:max-w-[60rem] text-display-small md:text-display-large text-foreground mb-6"
         >
-          Kel<span className="text-[#60A5FA]">Pro</span><br />Auto Spares Wholesale
+          KelPro<span className="text-[#136C98]"> Auto</span><br />Spares Wholesale
         </motion.h1>
 
         <motion.p
@@ -76,15 +76,11 @@ const Hero = () => {
             alt="ObsidianOS Dashboard Mockup"
             className="w-full h-auto rounded-t-2xl md:rounded-t-[2.5rem] border border-border border-b-0 shadow-2xl hidden md:block"
           />
-          <img
-            src="/assets/Homeheromobile.png"
-            alt="ObsidianOS Dashboard Mobile Mockup"
-            className="w-full h-auto rounded-t-2xl border border-border border-b-0 shadow-2xl block md:hidden"
-          />
+
         </motion.div>
 
         {/* Bottom Fade Gradient Overlay to blend the image into the background */}
-        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent z-20 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 right-0 h-48 md:h-64 bg-gradient-to-t from-background via-background/90 to-transparent z-20 pointer-events-none" />
       </div>
     </section>
   );

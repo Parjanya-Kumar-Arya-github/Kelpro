@@ -3,7 +3,8 @@ import { MapPin, Phone, Mail, Download, ArrowRight } from 'lucide-react';
 
 const ContactUs = () => {
   return (
-    <section id="contact" className="w-full py-24 md:py-32 bg-background relative overflow-hidden border-t border-border/10">
+    <section id="contact" className="w-full py-24 md:py-32 bg-background relative overflow-hidden">
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border/50 to-transparent opacity-50" />
 
       {/* Background glow similar to Hero */}
       <div className="absolute top-[20%] right-0 w-[40vw] max-w-[600px] h-[400px] bg-[linear-gradient(180deg,rgba(96,165,250,0.05)_0%,transparent_83.35%)] blur-[120px] rounded-[100%] pointer-events-none z-0" />

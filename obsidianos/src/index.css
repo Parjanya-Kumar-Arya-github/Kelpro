@@ -38,3 +38,17 @@
     @apply text-sm leading-relaxed;
   }
 }
+
+/* Pure CSS for mobile spline */
+@media screen and (max-width: 767px) {
+  .spline-mobile-absolute {
+    position: absolute !important;
+    inset: 0 !important;
+    height: 100% !important;
+    opacity: 0.4 !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+    mix-blend-mode: screen !important;
+  }
+}
+

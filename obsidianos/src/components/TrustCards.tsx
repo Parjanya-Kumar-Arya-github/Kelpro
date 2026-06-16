@@ -4,32 +4,32 @@ import { CheckSquare, Layers, Globe, Phone, Lock, Users } from 'lucide-react';
 const TrustCards = () => {
   const cards = [
     {
-      icon: <CheckSquare className="w-8 h-8 text-[#60A5FA]" />,
+      icon: <CheckSquare className="w-8 h-8 text-[#F7E7CE]" />,
       title: "OEM-GRADE QUALITY",
       desc: "High-grade materials and rigorous testing. Every Kelpro part delivers lasting performance matched to OEM specifications."
     },
     {
-      icon: <Layers className="w-8 h-8 text-[#60A5FA]" />,
+      icon: <Layers className="w-8 h-8 text-[#F7E7CE]" />,
       title: "TRANSPARENT TIERED PRICING",
       desc: "Clear tier pricing — retailer, distributor, wholesaler — with up to 35%+ off MRP for high-volume partners."
     },
     {
-      icon: <Globe className="w-8 h-8 text-[#60A5FA]" />,
+      icon: <Globe className="w-8 h-8 text-[#F7E7CE]" />,
       title: "INDIA & AFRICA READY",
       desc: "GST-compliant domestic supply across India. IEC-registered for African exports with freight forwarding partnerships."
     },
     {
-      icon: <Phone className="w-8 h-8 text-[#60A5FA]" />,
+      icon: <Phone className="w-8 h-8 text-[#F7E7CE]" />,
       title: "WHATSAPP-FIRST SUPPORT",
       desc: "Dedicated partner support via WhatsApp Business. Fast response on orders, RFQs and part availability queries."
     },
     {
-      icon: <Lock className="w-8 h-8 text-[#60A5FA]" />,
+      icon: <Lock className="w-8 h-8 text-[#F7E7CE]" />,
       title: "SECURE TRANSACTIONS",
       desc: "Prepaid for first orders, credit terms after track record is established. LC available for African export partners."
     },
     {
-      icon: <Users className="w-8 h-8 text-[#60A5FA]" />,
+      icon: <Users className="w-8 h-8 text-[#F7E7CE]" />,
       title: "28+ YEARS OF TRUST",
       desc: "Kapoor Auto Spares has operated from Kashmere Gate, Delhi since 1996 — one of India's most trusted auto parts hubs."
     }
@@ -46,7 +46,7 @@ const TrustCards = () => {
             viewport={{ once: true }}
             className="text-primary font-medium tracking-widest uppercase text-sm mb-4"
           >
-            WHY <span className="text-[#60A5FA]">KELPRO</span>
+            WHY <span className="text-[#F7E7CE]">KELPRO</span>
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}

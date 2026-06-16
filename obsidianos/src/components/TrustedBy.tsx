@@ -8,7 +8,8 @@ const TrustedBy = () => {
 
   return (
 
-    <section className="w-full py-16 md:py-24 border-t border-border bg-background flex justify-center">
+    <section className="relative w-full py-16 md:py-24 bg-background flex justify-center">
+      <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-border to-transparent opacity-50" />
       <div className="w-full max-w-6xl px-6 flex flex-wrap justify-center md:justify-between items-center gap-12 md:gap-8">
 
         {stats.map((stat, idx) => (

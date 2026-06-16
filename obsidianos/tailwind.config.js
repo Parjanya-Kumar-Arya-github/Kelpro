@@ -7,17 +7,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#000000',
+        background: '#050A15',
         foreground: '#FAFAFA',
         muted: '#A1A1AA',
         'muted-foreground': '#71717A',
-        primary: '#FAFAFA',
+        primary: '#F7E7CE',
         'primary-foreground': '#000000',
-        secondary: '#27272A',
+        secondary: '#131A2A',
         'secondary-foreground': '#FAFAFA',
-        accent: '#67D243',
-        card: '#1A1A1A',
-        border: '#27272A',
+        accent: '#F7E7CE',
+        card: '#0A101C',
+        border: '#1A253D',
       },
       fontFamily: {
         sans: ['"Inter Variable"', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],

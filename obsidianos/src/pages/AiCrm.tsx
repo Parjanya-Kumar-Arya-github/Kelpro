@@ -8,7 +8,7 @@ const products = [
     desc: "OEM-grade engine & gearbox mounts with maximum vibration suppression. Reinforced rubber-steel construction.",
     tags: ["MARUTI", "TOYOTA", "HYUNDAI", "TATA", "MAHINDRA"],
     footer: "Gypsy · Swift · Innova · Scorpio · Indica",
-    icon: <img src="/assets/Products/engine_mounting.png" alt="Engine Mountings" className="h-44 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
+    icon: <img src="/assets/Products/engine_mounting.png" alt="Engine Mountings" className="h-20 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
   },
   {
     badge: "30 Models",
@@ -17,7 +17,7 @@ const products = [
     desc: "In-tank fuel pump motors with filters. MRP from ₹715. Available for petrol & diesel variants across brands.",
     tags: ["KFM SERIES", "WITH FILTERS", "OE STANDARD"],
     footer: "Nano · Kwid · Swift · Creta · City · Bolero",
-    icon: <img src="/assets/Products/fuel_pump_motors.png" alt="Fuel Pump Motors" className="h-44 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
+    icon: <img src="/assets/Products/fuel_pump_motors.png" alt="Fuel Pump Motors" className="h-20 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
   },
   {
     badge: "60+ Models",
@@ -26,7 +26,7 @@ const products = [
     desc: "KWP series water pumps from ₹770. Covers Maruti-Suzuki, Tata, Nissan, Mahindra, Toyota, VW, Ford, Renault, Hyundai & Honda.",
     tags: ["KWP SERIES", "MULTI-BRAND"],
     footer: "Alto · Innova · Duster · Bolero · Polo · Santro",
-    icon: <img src="/assets/Products/water_pumps.png" alt="Water Pumps" className="h-44 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
+    icon: <img src="/assets/Products/water_pumps.png" alt="Water Pumps" className="h-20 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
   },
   {
     badge: "4 Types",
@@ -35,7 +35,7 @@ const products = [
     desc: "Complete thermostat assemblies for Swift, Ertiga, Ignis, Ritz & Beat. OEM number matched.",
     tags: ["KT SERIES", "ASSEMBLY"],
     footer: "Swift · Ertiga · Ignis · Ritz · Beat · Vista",
-    icon: <img src="/assets/Products/thermostat_elbow.png" alt="Thermostat Elbows" className="h-44 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
+    icon: <img src="/assets/Products/thermostat_elbow.png" alt="Thermostat Elbows" className="h-20 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
   },
   {
     badge: "80+ SKUs",
@@ -44,7 +44,7 @@ const products = [
     desc: "Front strut mounts with retainers. Bushing kits in sets of 6-24 pieces. OEM rubber compounds for vibration isolation.",
     tags: ["FRONT STRUT", "BUSHING SETS", "OEM"],
     footer: "Swift · Creta · Innova · Scorpio · XUV · Polo",
-    icon: <img src="/assets/Products/strut_mounts.png" alt="Strut Mounts & Bushing Kits" className="h-44 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
+    icon: <img src="/assets/Products/strut_mounts.png" alt="Strut Mounts & Bushing Kits" className="h-20 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
   },
   {
     badge: "Multiple Lines",
@@ -53,7 +53,7 @@ const products = [
     desc: "Calliper pin kits (₹375-₹600), head gaskets, oil cooler assemblies, tailgate struts (₹113+) and universal wiper blades.",
     tags: ["CALLIPER PINS", "GASKETS", "WIPERS", "OIL COOLERS"],
     footer: "Innova · Swift · Creta · Scorpio · Duster",
-    icon: <img src="/assets/Products/calliper_kit.png" alt="Calliper Kits, Gaskets & More" className="h-44 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
+    icon: <img src="/assets/Products/calliper_kit.png" alt="Calliper Kits, Gaskets & More" className="h-20 md:h-52 object-contain group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(255,255,255,0.4)]" />
   }
 ];
 
@@ -85,7 +85,7 @@ const AiCrm = () => {
       <section ref={sectionRef} className="relative min-h-[85vh] flex items-center px-6 pb-16 pt-10 md:pb-24 z-10 max-w-[1400px] mx-auto w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 w-full gap-10 lg:gap-20 items-center">
           {/* Left Column: Spline */}
-          <div className="relative w-full h-[40vh] md:h-[600px] flex items-center justify-center order-2 md:order-1 z-0 pointer-events-none">
+          <div className="relative w-full h-[40vh] md:h-[600px] flex items-center justify-center order-2 md:order-1 z-0 pointer-events-none spline-mobile-absolute">
             <AnimatePresence>
               {isInView && (
                 <motion.div
@@ -154,7 +154,7 @@ const AiCrm = () => {
       {/* 2. Quick Features Row */}
 
       {/* 3. Product Categories Grid */}
-      <section className="py-24 md:py-32 max-w-[1200px] mx-auto px-6 relative z-10">
+      <section className="pb-24 md:py-32 max-w-[1200px] mx-auto px-6 relative z-20">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -164,7 +164,7 @@ const AiCrm = () => {
           Product Categories
         </motion.h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
           {products.map((card, idx) => (
             <motion.div
               key={idx}
@@ -172,26 +172,26 @@ const AiCrm = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="relative flex flex-col rounded-[2rem] overflow-hidden bg-[#1C1A19]/50 border border-border group hover:border-[#60A5FA]/50 transition-colors duration-500"
+              className="relative flex flex-col rounded-[2rem] overflow-hidden bg-[#1C1A19]/50 border border-[#F7E7CE]/30 group hover:border-[#F7E7CE] transition-colors duration-500"
             >
               {/* Top image area */}
-              <div className="relative h-56 md:h-64 bg-[linear-gradient(180deg,#000_-20%,#1C1A19_100%)] flex items-center justify-center border-b border-border/50 overflow-hidden">
-                <div className="absolute top-5 right-5 bg-[#60A5FA]/20 text-[#60A5FA] px-3 py-1 rounded-full text-xs font-bold tracking-wide">
+              <div className="relative h-28 md:h-64 bg-[linear-gradient(180deg,#000_-20%,#1C1A19_100%)] flex items-center justify-center border-b border-border/50 overflow-hidden">
+                <div className="absolute top-3 md:top-5 right-3 md:right-5 bg-[#F7E7CE]/20 text-[#F7E7CE] px-2 md:px-3 py-0.5 md:py-1 rounded-full text-[8px] md:text-xs font-bold tracking-wide">
                   {card.badge}
                 </div>
                 {card.icon}
               </div>
 
               {/* Content Area */}
-              <div className="p-6 md:p-8 flex flex-col flex-1">
-                <p className="text-[#60A5FA] text-xs font-bold tracking-widest uppercase mb-2">{card.category}</p>
-                <h3 className="text-xl font-bold text-foreground mb-3 uppercase tracking-tight">{card.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed mb-6 flex-1">
+              <div className="p-4 md:p-8 flex flex-col flex-1">
+                <p className="text-[#F7E7CE] text-[10px] md:text-xs font-bold tracking-widest uppercase mb-1 md:mb-2">{card.category}</p>
+                <h3 className="text-sm md:text-xl font-bold text-foreground mb-2 md:mb-3 uppercase tracking-tight">{card.title}</h3>
+                <p className="text-muted-foreground text-xs md:text-sm leading-relaxed mb-4 md:mb-6 flex-1 hidden md:block">
                   {card.desc}
                 </p>
 
                 {/* Tags */}
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-1 md:gap-2 mb-4 md:mb-6">
                   {card.tags.map(tag => (
                     <span key={tag} className="bg-white/5 text-muted-foreground text-[10px] md:text-xs font-bold px-2.5 py-1.5 rounded-[4px] border border-white/10 uppercase tracking-wider">
                       {tag}
@@ -200,11 +200,11 @@ const AiCrm = () => {
                 </div>
 
                 {/* Footer */}
-                <div className="flex items-center justify-between mt-auto pt-6 border-t border-border/50">
-                  <p className="text-muted-foreground/60 text-xs italic font-medium">
+                <div className="flex items-center justify-between mt-auto pt-4 md:pt-6 border-t border-border/50">
+                  <p className="text-muted-foreground/60 text-[10px] md:text-xs italic font-medium truncate mr-2">
                     {card.footer}
                   </p>
-                  <span className="text-[#60A5FA] text-xs font-bold uppercase tracking-widest group-hover:translate-x-1 transition-transform cursor-pointer">
+                  <span className="text-[#F7E7CE] text-[10px] md:text-xs font-bold uppercase tracking-widest group-hover:translate-x-1 transition-transform cursor-pointer shrink-0">
                     VIEW &rarr;
                   </span>
                 </div>
