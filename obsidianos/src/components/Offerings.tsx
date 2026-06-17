@@ -2,36 +2,7 @@
 import { motion } from 'framer-motion';
 
 const Offerings = () => {
-  const cards = [
-    {
-      id: 1,
-      bgImage: "/assets/enginemountings.jpg",
-      title: "Engine Mountings",
-      subtitle: "Supercharge your advisers",
-      body: "OEM-matched, vibration-suppressing, reinforced steel structure"
-    },
-    {
-      id: 2,
-      bgImage: "/assets/strutmount.png",
-      title: "Strut Mounts",
-      subtitle: "Suspension Kits",
-      body: "Suspension kits for Maruti, Toyota, Hyundai, Mahindra, Tata"
-    },
-    {
-      id: 3,
-      bgImage: "/assets/fuelpumps.jpg",
-      title: "Fuel & Water Pumps",
-      subtitle: "Fuel Pumps",
-      body: "30+ fuel pump models, multi-brand water pumps with OE specs"
-    },
-    {
-      id: 4,
-      bgImage: "/assets/brakepad.jpg",
-      title: "Brake Cables & Pads",
-      subtitle: "Brake Cables & Pads",
-      body: "Calliper kits, tailgate struts, wiper blades, head gaskets"
-    }
-  ];
+
 
   return (
     <section className="w-full pt-20 px-6 md:px-10 max-w-[100vw] mx-auto flex flex-col items-center">

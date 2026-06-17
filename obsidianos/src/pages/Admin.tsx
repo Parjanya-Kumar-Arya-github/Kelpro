@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+
 import { Save, Loader2, LogIn, Plus, Trash2 } from 'lucide-react';
 
 type Tab = { id: string; label: string };

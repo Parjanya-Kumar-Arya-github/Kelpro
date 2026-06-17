@@ -61,15 +61,7 @@ const AiCrm = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const isInView = useInView(sectionRef, { margin: "0px", amount: 0.1 });
 
-  useEffect(() => {
-    // Dynamically load the spline script only when the section comes into view for the first time
-    if (isInView && !document.querySelector('script[src="https://unpkg.com/@splinetool/viewer@1.12.37/build/spline-viewer.js"]')) {
-      const script = document.createElement('script');
-      script.type = 'module';
-      script.src = 'https://unpkg.com/@splinetool/viewer@1.12.37/build/spline-viewer.js';
-      document.head.appendChild(script);
-    }
-  }, [isInView]);
+
 
   // Helper for staggering words
   const sentence = "PRODUCT LINES";
@@ -95,8 +87,7 @@ const AiCrm = () => {
                   transition={{ duration: 1 }}
                   className="w-full h-full"
                 >
-                  {/* @ts-ignore */}
-                  <spline-viewer url="https://prod.spline.design/brbRtBg2BVaMXi08/scene.splinecode" loading="lazy" style={{ background: 'transparent', width: '100%', height: '100%', pointerEvents: 'none' }}></spline-viewer>
+                  <img src="/assets/top.jpg" alt="Decorative breaker" className="w-full h-full object-contain mix-blend-screen" style={{ pointerEvents: 'none' }} />
                 </motion.div>
               )}
             </AnimatePresence>

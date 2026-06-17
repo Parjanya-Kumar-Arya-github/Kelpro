@@ -37,7 +37,7 @@ const Hero = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-[95%] md:max-w-[60rem] text-display-small md:text-display-large text-foreground mb-6"
         >
-          KelPro<span className="text-[#136C98]"> Auto</span><br />Spares Wholesale
+          Kelpro<span className="text-[#136C98]"> Auto</span><br />Spares Wholesale
         </motion.h1>
 
         <motion.p
