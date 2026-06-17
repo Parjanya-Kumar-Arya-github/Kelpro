@@ -41,7 +41,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 cursor-pointer z-50">
           <img src="/assets/kelpro-logo.png" alt="Kelpro Logo" className="w-10 h-10 object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" />
-          <span className="text-xl font-heading font-medium tracking-tight">KELPRO <span className='text-[#F7E7CE] font-bold'>AUTO</span></span>
+          <span className="text-xl font-heading font-medium tracking-tight">KELPRO <span className='text-[#136C98] font-bold'>AUTO</span></span>
         </Link>
 
         {/* Desktop Nav */}

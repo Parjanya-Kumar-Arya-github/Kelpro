@@ -8,12 +8,28 @@ type Tab = { id: string; label: string };
 type Row = { type?: string; label?: string; cells?: string[] };
 type CategoryData = { id: string; headers: string[]; rows: Row[]; footer: string | null };
 
-const catalogue = catalogueDataRaw as { tabs: Tab[]; catalogueData: CategoryData[] };
+const catalogueFallback = catalogueDataRaw as { tabs: Tab[]; catalogueData: CategoryData[] };
 
 const FeaturesInteractive = () => {
   const location = useLocation();
-  const [activeTab, setActiveTab] = useState<string>(catalogue.tabs[0].id);
+  const [catalogue, setCatalogue] = useState<{ tabs: Tab[]; catalogueData: CategoryData[] }>(catalogueFallback);
+  const [activeTab, setActiveTab] = useState<string>(catalogueFallback.tabs[0].id);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  useEffect(() => {
+    fetch('/api/catalogue')
+      .then(res => res.json())
+      .then(data => {
+        if (data && data.tabs && data.catalogueData) {
+          setCatalogue(data);
+          // if active tab is no longer in tabs, reset it
+          if (!data.tabs.find((t: Tab) => t.id === activeTab)) {
+            setActiveTab(data.tabs[0].id);
+          }
+        }
+      })
+      .catch(err => console.error('Failed to fetch catalogue from API, using fallback:', err));
+  }, []);
 
   useEffect(() => {
     const params = new URLSearchParams(location.search);
@@ -21,7 +37,7 @@ const FeaturesInteractive = () => {
     if (tab && catalogue.tabs.find(t => t.id === tab)) {
       setActiveTab(tab);
     }
-  }, [location.search]);
+  }, [location.search, catalogue.tabs]);
 
   const currentData = catalogue.catalogueData.find(c => c.id === activeTab);
 

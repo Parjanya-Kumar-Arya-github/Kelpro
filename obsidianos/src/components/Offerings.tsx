@@ -34,7 +34,7 @@ const Offerings = () => {
   ];
 
   return (
-    <section className="w-full py-20 px-6 md:px-10 max-w-[100vw] mx-auto flex flex-col items-center">
+    <section className="w-full pt-20 px-6 md:px-10 max-w-[100vw] mx-auto flex flex-col items-center">
       <div className="text-center max-w-3xl mb-16 md:mb-24">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -58,40 +58,7 @@ const Offerings = () => {
         </motion.p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 w-full">
-        {cards.map((card, idx) => (
-          <motion.div
-            key={card.id}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-50px" }}
-            transition={{ duration: 0.7, delay: idx * 0.2 }}
-            className="group relative overflow-hidden rounded-[2rem] border border-border bg-card flex flex-col"
-          >
-            {/* Top Image Area */}
-            <div className="relative w-full h-64 md:h-80 overflow-hidden shrink-0">
-              <img
-                src={card.bgImage}
-                alt={card.title}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-            </div>
 
-            {/* Content Area */}
-            <div className="relative z-10 flex flex-col gap-3 p-8 md:p-12 bg-card flex-grow">
-              <span className="text-accent font-medium text-sm md:text-base tracking-wide uppercase">
-                {card.subtitle}
-              </span>
-              <h3 className="text-3xl md:text-4xl font-heading text-foreground">
-                {card.title}
-              </h3>
-              <p className="text-muted text-body-default md:text-body-large mt-2 md:mt-4">
-                {card.body}
-              </p>
-            </div>
-          </motion.div>
-        ))}
-      </div>
     </section>
   );
 };

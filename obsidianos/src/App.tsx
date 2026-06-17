@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Pricing from './pages/Pricing';
 import AiCrm from './pages/AiCrm';
+import Admin from './pages/Admin';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -84,6 +85,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/what-we-offer/ai-crm-for-financial-advisors" element={<AiCrm />} />
+            <Route path="/admin" element={<Admin />} />
           </Routes>
         </main>
         <Footer />

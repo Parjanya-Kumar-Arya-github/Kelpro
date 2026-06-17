@@ -71,11 +71,7 @@ const Hero = () => {
           className="relative z-10 px-4 md:px-0"
           whileHover={{ opacity: 1 }}
         >
-          <img
-            src="/assets/HomeHeroDesktop.png"
-            alt="ObsidianOS Dashboard Mockup"
-            className="w-full h-auto rounded-t-2xl md:rounded-t-[2.5rem] border border-border border-b-0 shadow-2xl hidden md:block"
-          />
+
 
         </motion.div>
 
