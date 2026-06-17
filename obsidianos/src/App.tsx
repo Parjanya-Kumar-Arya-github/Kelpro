@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Pricing from './pages/Pricing';
 import AiCrm from './pages/AiCrm';
 import Admin from './pages/Admin';
+import WhatsAppButton from './components/WhatsAppButton';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -89,6 +90,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </div>
     </>
   );
