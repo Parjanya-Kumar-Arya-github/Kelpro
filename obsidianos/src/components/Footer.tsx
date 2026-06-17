@@ -55,7 +55,7 @@ const Footer = () => {
             <Link to="/#products" className="text-muted hover:text-foreground text-sm transition-colors">About Us</Link>
             <Link to="/#markets" className="text-muted hover:text-foreground text-sm transition-colors">Markets</Link>
             <Link to="/#contact" className="text-muted hover:text-foreground text-sm transition-colors">Contact</Link>
-            <a href="/Kelpro Catalogue 2026.pdf" download className="text-muted hover:text-foreground text-sm transition-colors">Download Catalogue</a>
+            <a href="https://drive.google.com/uc?export=download&id=1d8aBEvB_VWvytpW2X05B7kajZYUmGZ81" target="_blank" rel="noopener noreferrer" className="text-muted hover:text-foreground text-sm transition-colors">Download Catalogue</a>
           </div>
         </div>
 

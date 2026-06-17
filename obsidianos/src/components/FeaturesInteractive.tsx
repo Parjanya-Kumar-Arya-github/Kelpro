@@ -71,8 +71,9 @@ const FeaturesInteractive = () => {
             className="text-body-default md:text-body-large text-muted max-w-2xl"
           >
             Retail MRP prices shown. Partner wholesale prices available after registration. <motion.a
-              href="/Kelpro Catalogue 2026.pdf"
-              download="Kelpro Catalogue 2026.pdf"
+              href="https://drive.google.com/uc?export=download&id=1d8aBEvB_VWvytpW2X05B7kajZYUmGZ81"
+              target="_blank"
+              rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}

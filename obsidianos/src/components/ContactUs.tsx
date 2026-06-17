@@ -99,8 +99,9 @@ const ContactUs = () => {
             </div>
 
             <a 
-              href="/Kelpro Catalogue 2026.pdf" 
-              download="Kelpro Catalogue 2026.pdf"
+              href="https://drive.google.com/uc?export=download&id=1d8aBEvB_VWvytpW2X05B7kajZYUmGZ81" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 w-full md:w-auto px-8 h-14 rounded-full border border-[#60A5FA]/30 text-[#60A5FA] font-medium hover:bg-[#60A5FA]/10 transition-colors uppercase text-sm tracking-wide"
             >
               <Download className="w-4 h-4" />
