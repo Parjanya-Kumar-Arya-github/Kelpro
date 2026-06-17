@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="w-full bg-[#0A0A0A] border-t border-border pt-20 pb-10 px-6 md:px-10">
       <div className="max-w-[1512px] mx-auto flex flex-col md:flex-row justify-between gap-16 md:gap-8 pb-16">
-        
+
         {/* Left Section: Branding and Contact */}
         <div className="flex flex-col gap-8 max-w-[600px]">
           <div className="flex items-center gap-3">
@@ -14,7 +14,7 @@ const Footer = () => {
               KELPRO <span className="text-[#60A5FA]">AUTO SPARES</span>
             </span>
           </div>
-          
+
           <div className="flex flex-col gap-4 text-xs text-muted-foreground leading-relaxed">
             <p className="text-sm">
               A brand of Kapoor Auto Spares. Wholesale auto parts supplier operating from Kashmere Gate, Delhi since 1996. B2B only — retailers, distributors and wholesalers welcome.
@@ -53,7 +53,6 @@ const Footer = () => {
           <div className="flex flex-col gap-4">
             <h4 className="text-muted-foreground font-bold text-xs tracking-widest uppercase mb-2">Company</h4>
             <Link to="/#products" className="text-muted hover:text-foreground text-sm transition-colors">About Us</Link>
-            <Link to="/#pricing" className="text-muted hover:text-foreground text-sm transition-colors">Partner Tiers</Link>
             <Link to="/#markets" className="text-muted hover:text-foreground text-sm transition-colors">Markets</Link>
             <Link to="/#contact" className="text-muted hover:text-foreground text-sm transition-colors">Contact</Link>
             <a href="/Kelpro Catalogue 2026.pdf" download className="text-muted hover:text-foreground text-sm transition-colors">Download Catalogue</a>

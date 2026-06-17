@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Download, ArrowRight, Loader2 } from 'lucide-react';
+import { MapPin, Phone, Mail, Download, ArrowRight, Loader2, ChevronDown } from 'lucide-react';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -142,35 +142,50 @@ const ContactUs = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col gap-2">
                   <label className="text-[10px] md:text-xs font-bold tracking-widest text-muted-foreground uppercase">COUNTRY / REGION</label>
-                  <select name="region" value={formData.region} onChange={handleChange} className="bg-background/50 border border-border/50 rounded-lg px-4 py-3.5 text-sm text-muted-foreground focus:outline-none focus:border-[#60A5FA]/50 transition-colors appearance-none cursor-pointer">
-                    <option value="">Select market</option>
-                    <option value="in">India</option>
-                    <option value="af">Africa</option>
-                    <option value="other">Other</option>
-                  </select>
+                  <div className="relative">
+                    <select name="region" value={formData.region} onChange={handleChange} className="w-full bg-background/50 border border-border/50 rounded-lg px-4 py-3.5 text-sm text-foreground focus:outline-none focus:border-[#60A5FA]/50 transition-colors appearance-none cursor-pointer">
+                      <option value="" className="bg-[#1C1A19] text-muted-foreground">Select market</option>
+                      <option value="in" className="bg-[#1C1A19] text-foreground">India</option>
+                      <option value="af" className="bg-[#1C1A19] text-foreground">Africa</option>
+                      <option value="other" className="bg-[#1C1A19] text-foreground">Other</option>
+                    </select>
+                    <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                      <ChevronDown className="w-4 h-4 text-muted-foreground" />
+                    </div>
+                  </div>
                 </div>
                 <div className="flex flex-col gap-2">
                   <label className="text-[10px] md:text-xs font-bold tracking-widest text-muted-foreground uppercase">PARTNER TIER</label>
-                  <select name="tier" value={formData.tier} onChange={handleChange} className="bg-background/50 border border-border/50 rounded-lg px-4 py-3.5 text-sm text-muted-foreground focus:outline-none focus:border-[#60A5FA]/50 transition-colors appearance-none cursor-pointer">
-                    <option value="">Select tier</option>
-                    <option value="retailer">Retailer (10-50 units)</option>
-                    <option value="distributor">Distributor (50-200 units)</option>
-                    <option value="wholesaler">Wholesaler (200+ units)</option>
-                  </select>
+                  <div className="relative">
+                    <select name="tier" value={formData.tier} onChange={handleChange} className="w-full bg-background/50 border border-border/50 rounded-lg px-4 py-3.5 text-sm text-foreground focus:outline-none focus:border-[#60A5FA]/50 transition-colors appearance-none cursor-pointer">
+                      <option value="" className="bg-[#1C1A19] text-muted-foreground">Select tier</option>
+                      <option value="retailer" className="bg-[#1C1A19] text-foreground">Retailer (10-50 units)</option>
+                      <option value="distributor" className="bg-[#1C1A19] text-foreground">Distributor (50-200 units)</option>
+                      <option value="wholesaler" className="bg-[#1C1A19] text-foreground">Wholesaler (200+ units)</option>
+                    </select>
+                    <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                      <ChevronDown className="w-4 h-4 text-muted-foreground" />
+                    </div>
+                  </div>
                 </div>
               </div>
 
               <div className="flex flex-col gap-2">
                 <label className="text-[10px] md:text-xs font-bold tracking-widest text-muted-foreground uppercase">PRODUCTS OF INTEREST</label>
-                <select name="products" value={formData.products} onChange={handleChange} className="bg-background/50 border border-border/50 rounded-lg px-4 py-3.5 text-sm text-muted-foreground focus:outline-none focus:border-[#60A5FA]/50 transition-colors appearance-none cursor-pointer">
-                  <option value="">Select category</option>
-                  <option value="engine">Engine Mountings</option>
-                  <option value="fuel">Fuel Pumps</option>
-                  <option value="cooling">Cooling & Water Pumps</option>
-                  <option value="suspension">Suspension & Struts</option>
-                  <option value="braking">Braking & Body</option>
-                  <option value="all">Full Catalogue</option>
-                </select>
+                <div className="relative">
+                  <select name="products" value={formData.products} onChange={handleChange} className="w-full bg-background/50 border border-border/50 rounded-lg px-4 py-3.5 text-sm text-foreground focus:outline-none focus:border-[#60A5FA]/50 transition-colors appearance-none cursor-pointer">
+                    <option value="" className="bg-[#1C1A19] text-muted-foreground">Select category</option>
+                    <option value="engine" className="bg-[#1C1A19] text-foreground">Engine Mountings</option>
+                    <option value="fuel" className="bg-[#1C1A19] text-foreground">Fuel Pumps</option>
+                    <option value="cooling" className="bg-[#1C1A19] text-foreground">Cooling & Water Pumps</option>
+                    <option value="suspension" className="bg-[#1C1A19] text-foreground">Suspension & Struts</option>
+                    <option value="braking" className="bg-[#1C1A19] text-foreground">Braking & Body</option>
+                    <option value="all" className="bg-[#1C1A19] text-foreground">Full Catalogue</option>
+                  </select>
+                  <div className="absolute inset-y-0 right-0 flex items-center pr-4 pointer-events-none">
+                    <ChevronDown className="w-4 h-4 text-muted-foreground" />
+                  </div>
+                </div>
               </div>
 
               <div className="flex flex-col gap-2">

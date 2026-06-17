@@ -11,7 +11,7 @@ const TrustCards = () => {
     {
       icon: <Layers className="w-8 h-8 text-[#F7E7CE]" />,
       title: "TRANSPARENT TIERED PRICING",
-      desc: "Clear tier pricing — retailer, distributor, wholesaler — with up to 35%+ off MRP for high-volume partners."
+      desc: "Clear tier pricing retailer, distributor, wholesaler with up to 35%+ off MRP for high-volume partners."
     },
     {
       icon: <Globe className="w-8 h-8 text-[#F7E7CE]" />,
@@ -31,7 +31,7 @@ const TrustCards = () => {
     {
       icon: <Users className="w-8 h-8 text-[#F7E7CE]" />,
       title: "28+ YEARS OF TRUST",
-      desc: "Kapoor Auto Spares has operated from Kashmere Gate, Delhi since 1996 — one of India's most trusted auto parts hubs."
+      desc: "Kapoor Auto Spares has operated from Kashmere Gate, Delhi since 1996 one of India's most trusted auto parts hubs."
     }
   ];
 

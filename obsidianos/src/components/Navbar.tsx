@@ -19,7 +19,6 @@ const Navbar = () => {
   const navLinks: { name: string; to?: string; dropdown?: any[] }[] = [
     { name: 'Products', to: "#products" },
     { name: 'Catalogue', to: "#catalogue" },
-    { name: 'Tiers', to: '#pricing' },
     { name: 'Markets', to: "#markets" },
     { name: 'Contact', to: "#contact" }
   ];

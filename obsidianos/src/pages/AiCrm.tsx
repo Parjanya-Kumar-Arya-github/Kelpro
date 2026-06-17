@@ -134,6 +134,7 @@ const AiCrm = () => {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.9 }}
+              onClick={() => { document.location = "#contact" }}
               className="bg-primary text-primary-foreground hover:bg-primary/90 h-12 px-8 rounded-full text-base font-semibold transition-colors"
             >
               Request Partnership

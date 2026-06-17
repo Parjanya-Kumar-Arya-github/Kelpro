@@ -5,8 +5,8 @@ const Offerings = () => {
 
 
   return (
-    <section className="w-full pt-20 px-6 md:px-10 max-w-[100vw] mx-auto flex flex-col items-center">
-      <div className="text-center max-w-3xl mb-16 md:mb-24">
+    <section className="w-full pt-20 md:px-10 max-w-[100vw] mx-auto flex flex-col items-center">
+      <div className="text-center px-[20%] mb-16 md:mb-24">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -24,7 +24,7 @@ const Offerings = () => {
           className="text-body-default md:text-body-large text-muted"
         >
           Kelpro is the manufacturing brand of Kapoor Auto Spares, a family-run wholesale auto parts business operating out of <span className="text-[#F7E7CE] font-semibold">Kashmere Gate, Delhi since 1996</span> one of India's oldest auto parts hubs.
-          <br />
+          <br /><br />
           We supply a comprehensive range of engine, cooling, suspension and braking components to retailers, distributors and wholesalers across India and African markets. Every part is built to OEM standards with rigorous quality checks.
         </motion.p>
       </div>

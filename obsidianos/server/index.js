@@ -166,9 +166,13 @@ app.post('/api/catalogue', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Backend server running on port ${PORT}`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`Backend server running on port ${PORT}`);
+  });
 
-// Force the event loop to stay alive
-setInterval(() => {}, 60000);
+  // Force the event loop to stay alive
+  setInterval(() => {}, 60000);
+}
+
+export default app;

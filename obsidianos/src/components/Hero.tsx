@@ -46,7 +46,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="max-w-[50%] text-sm md:text-base text-white/90 drop-shadow-[0_0_8px_rgba(255,255,255,0.5)] mb-10"
         >
-          A brand of Kapoor Auto Spares. Engine Mountings, Strut Mounts, Fuel Pumps, Water Pumps, Bushing Kits, Gaskets & more — supplied to retailers, distributors and wholesalers since 1996.
+          A brand of Kapoor Auto Spares. Engine Mountings, Strut Mounts, Fuel Pumps, Water Pumps, Bushing Kits, Gaskets & more supplied to retailers, distributors and wholesalers since 1996.
         </motion.p>
 
         <motion.a
